@@ -9,5 +9,4 @@ program overflow
       print *, val
       val = val + 1
   end do
-  end program overflow
-
+end program overflow
