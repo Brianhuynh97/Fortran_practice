@@ -11,7 +11,7 @@ program logistic_map
   implicit none
   integer, parameter :: nr_x_values = 100, nr_r_values = 200, nr_iterations = 10000
   real, parameter :: x_min = 0.0_DP, x_max = 1.0_DP, &
-                     r_min = 0.5_DP, r_max = 4.0_DP
+                     r_min = 0.0_DP, r_max = 4.0_DP
   real(kind=DP), dimension(nr_x_values, nr_r_values) :: X, R, result
   real :: delta_x, delta_r
   integer :: i, j
